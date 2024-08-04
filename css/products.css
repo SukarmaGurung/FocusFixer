@@ -1,0 +1,130 @@
+/* this external css targets the product page */
+
+.products_table{
+    /* this is for the product table of product page */
+    height: 89px;
+    margin-top: 14px;
+    font-family: 'Inter';
+    font-style: normal;  
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+.products_table table{
+
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.cameras img{
+    width: 324px;
+}
+
+.camera_container{
+
+    /* this is for the image container of the product page */
+    padding: 10px 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+
+}
+
+.cameras{
+    border: 3px solid whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.lens img{
+    width: 324px;
+}
+
+.lens_container{
+    /* this is for the lens section of product page */
+    padding: 10px 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+.lens{
+    border: 3px solid  whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.flash img{
+    width: 324px;
+}
+
+.flash_container{
+    /* this is for the flash part of product page */
+    padding: 10px 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+
+}
+
+.flash{
+    border: 3px solid  whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.tripod img{
+    width: 324px;
+}
+
+.tripod_container{
+    padding: 10px 140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+
+.tripod{
+    border: 3px solid  whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.batteries img{
+    width: 324px;
+}
+
+.batteries_container{
+    /* this is for the batteris container of product page */
+    padding: 10px 160px;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 1rem;
+}
+
+.batteries{
+    /* this is for the battries section */
+    border: 3px solid  whitesmoke;
+    margin: auto;
+    background-color: whitesmoke;
+}

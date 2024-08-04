@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Inter;
+  /* this removes the browser padding and margin and text-decoration */
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  /* to remove anker tag underline */
+}
+
+header {
+  /* this targets the header part */
+  position: fixed;
+  display: flex;
+  height: 103px;
+  width: 100%;
+  background-color: white;
+  z-index: 100000;
+}
+
+header .logo {
+  flex: 10%;
+  margin-top: 37.2px;
+}
+
+/* this external css targets the whole footer and nagivation part  */
+
+.logo a {
+  /* for focusFixer */
+  font-weight: 700;
+  color: #000000;
+  margin-left: 29.76px;
+  font-size: 30px;
+}
+
+.navigation_table {
+  /* this targets maing target of navigation */
+  background-color: rgba(0, 0, 139, 0.83);
+  flex: 80%;
+  margin-left: 40px;
+  margin-right: 50px;
+  height: 66px;
+  margin-top: 18px;
+}
+
+.navigation_table table {
+  /* this is for the navigation bar with home and other section  */
+  width: 100%;
+  height: 100%;
+}
+
+.navigation_table a {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+header form {
+  /* this is for the search part of naviagation section */
+  flex: 10%;
+  height: 32px;
+}
+
+footer {
+  /* this targets the whole footer class  */
+  background-color: rgba(0, 0, 139, 0.83);
+  height: 378px;
+  width: 100%;
+  padding: 1.5% 0% 0% 0%;
+}
+
+.footer_container {
+  color: #ffffff;
+  display: flex;
+}
+
+.right_footer {
+  flex: 50%;
+}
+
+.left_footer {
+  padding-left: 100px;
+  flex: 72%;
+}
+
+footer input {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer_container p {
+  font-size: 20px;
+}
+
+#myBtn {
+  /* this for the top button */
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.navigation_table :hover{
+  color: black;
+}
+  

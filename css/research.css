@@ -1,0 +1,43 @@
+body{
+    background-image: url(/img/backgroundimgjpg.jpg);
+    background-position: cover;
+}
+
+
+
+
+.headerresearch_container{
+    /* this is for the main photo that is displayed at the page  */
+    padding: 10px 100px;
+    padding-top: 6rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.homeresearch_container{
+    padding: 10px 100px;
+    padding-top: 6rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.productresearch_container{
+    padding: 10px 100px;
+    padding-top: 0rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.blogresearch_container{
+    padding: 10px 100px;
+    padding-top: 6rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.footerresearch_container{
+    padding: 10px 100px;
+    padding-top: 6rem;
+    display: flex;
+    gap: 5rem;
+}
